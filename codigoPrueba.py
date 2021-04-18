@@ -1,6 +1,6 @@
 
 
-def suma(num1, num2, modo):
+def my_calculation(num1, num2, modo):
 	if modo == 1:
 		return (num1 + num2)
 	else:
@@ -8,5 +8,5 @@ def suma(num1, num2, modo):
 
 if __name__ == '__main__':
 	print("Estoy usando GitHub")
-	print("Suma: " + str(suma(4,8,1)))
-	print("Multiplicacion: " + str(suma(4,8,2)))
+	print("Suma: " + str(my_calculation(4,8,1)))
+	print("Multiplicacion: " + str(my_calculation(4,8,2)))
