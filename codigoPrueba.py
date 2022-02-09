@@ -8,6 +8,7 @@ def my_calculation(num1, num2, modo):
 
 if __name__ == '__main__':
 	print("Estoy usando GitHub")
+	print("Acabo de retomar el curso :P XD")
 	number1 = int(input("Please give me a number:\n"))
 	number2 = int(input("Please give me another number:\n"))
 	print("Suma: " + str(my_calculation(number1,number2,1)))
